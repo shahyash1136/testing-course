@@ -1,7 +1,7 @@
-import React from 'react';
-import './App.css';
-import { AppProviders } from './providers/AppProviders';
-import { MuiMode } from './components/mui/MuiMode';
+import React from 'react'
+import './App.css'
+import { AppProviders } from './providers/AppProviders'
+import { MuiMode } from './components/mui/MuiMode'
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
         <MuiMode />
       </div>
     </AppProviders>
-  );
+  )
 }
 
-export default App;
+export default App
